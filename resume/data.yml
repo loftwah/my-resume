@@ -1,0 +1,85 @@
+/* #*/ export const PERSON = `
+name:
+  first: Dean
+  middle:
+  last: Lofts
+about: Hi, I'm Dean, an Information Technology generalist based in Perth, Western Australia. I enjoy learning and experimenting with all kinds of technology. I develop exceptional solutions to customer problems and challenges.
+position: Site Reliability Engineer
+
+birth:
+  year: 1985
+  location: Melbourne
+
+experience:
+- company: Lions Eye Institute
+  position: Systems Engineer
+  timeperiod: since November 2019
+  description: Supporting infrastructure, primarily a Windows environment running on VMware vSphere.
+  website: https://lei.org.au
+
+- company: Vizstone
+  position: Customer Service Engineer L3
+  timeperiod: August 2019 - November 2019
+  description: Provided an escalation point for VIP customers and other support engineers. Mainly supporting Wintel environments.
+
+- company: CorpCloud
+  position: DevOps Engineer
+  timeperiod: April 2019 - August 2019
+  description: Worked with the DevOps team to establish a DevOps culture and transition services to infrastructure as code.
+
+education:
+- degree: Bachelor of Information Technology
+  timeperiod: March 2015 - December 2018
+  description: Major in Information Technology, RMIT University, Melbourne, AUS.
+  website: https://www.rmit.edu.au
+
+# skill level goes 0 to 100
+skills:
+- name: Git
+  level: 80
+- name: Docker
+  level: 90
+- name: Linux
+  level: 95
+- name: Ansible
+  level: 90
+- name: Python
+  level: 85
+- name: Node.js
+  level: 80
+- name: Bash
+  level: 90
+- name: Amazon Web Services
+  level: 85
+knowledge: Also proficient with frontend and backend development, audio engineering and digital marketing.
+
+projects:
+- name: Shake Down Records
+  platform: WordPress
+  description: Design, Development and Maintenance of an E-Commerce web application. Store has taken in over $100k in revenue.
+  url: https://www.shakedownrecords.com.aus
+
+hobbies:
+- name: Music Production
+  iconClass: fa fa-music
+  url: https://www.beatsmiff.com
+
+- name: Coding
+  iconClass: fa fa-code
+  url: https://www.github.com/loftwah
+
+contributions:
+- name: Dev Snippets
+  description: A collection of useful code snippets for new developers https://devsnippets.xyz
+  url: https://github.com/rickwest/devsnippets
+
+contact:
+  email: dean@deanlofts.xyz
+  phone: 0423 837 782
+  street: 6/8 Ashford Avenue
+  city: Rockingham
+  website: https://www.linkedin.com/in/deanlofts/
+  github: loftwah
+# en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
+lang: en
+`
